@@ -1,0 +1,36 @@
+2023-09-06 11:54:18,746 ERROR frappe New Exception collected in error log
+Site: essentia.dev
+Form Dict: {}
+2023-09-06 11:54:22,139 ERROR frappe New Exception collected in error log
+Site: essentia.dev
+Form Dict: {}
+2023-09-06 11:54:29,917 ERROR frappe New Exception collected in error log
+Site: essentia.dev
+Form Dict: {}
+2023-09-06 11:54:31,050 ERROR frappe New Exception collected in error log
+Site: essentia.dev
+Form Dict: {}
+2023-09-06 11:54:32,111 ERROR frappe New Exception collected in error log
+Site: essentia.dev
+Form Dict: {}
+2023-09-06 11:55:14,231 ERROR frappe New Exception collected in error log
+Site: essentia.dev
+Form Dict: {}
+2023-09-06 11:56:02,601 ERROR frappe New Exception collected in error log
+Site: essentia.dev
+Form Dict: {'app_path': 'home'}
+2023-09-12 12:05:53,906 ERROR frappe New Exception collected in error log
+Site: essentia.dev
+Form Dict: {'txt': '', 'doctype': '', 'ignore_user_permissions': '0', 'reference_doctype': 'User Permission', 'query': 'frappe.core.doctype.user_permission.user_permission.get_applicable_for_doctype_list', 'cmd': 'frappe.desk.search.search_link'}
+2023-09-14 18:52:34,996 ERROR frappe New Exception collected in error log
+Site: essentia.dev
+Form Dict: {'doc': '{"name":"Total Outgoing Bills","owner":"Administrator","creation":"2020-07-17 11:25:34.725416","modified":"2020-07-22 13:07:19.633101","modified_by":"Administrator","docstatus":0,"idx":0,"is_standard":1,"module":"Accounts","label":"Total Outgoing Bills","type":"Document Type","function":"Sum","aggregate_function_based_on":"base_net_total","document_type":"Sales Invoice","is_public":1,"show_percentage_stats":1,"stats_time_interval":"Monthly","filters_json":"[[\\"Sales Invoice\\",\\"docstatus\\",\\"=\\",\\"1\\",false],[\\"Sales Invoice\\",\\"posting_date\\",\\"Timespan\\",\\"this year\\",false]]","doctype":"Number Card","__last_sync_on":"2023-09-14T13:22:34.746Z"}', 'filters': '[["Sales Invoice","docstatus","=","1",false],["Sales Invoice","posting_date","Timespan","this year",false]]', 'cmd': 'frappe.desk.doctype.number_card.number_card.get_result'}
+2023-09-14 18:53:12,861 ERROR frappe New Exception collected in error log
+Site: essentia.dev
+Form Dict: {'doc': '{"name":"Total Outgoing Bills","owner":"Administrator","creation":"2020-07-17 11:25:34.725416","modified":"2020-07-22 13:07:19.633101","modified_by":"Administrator","docstatus":0,"idx":0,"is_standard":1,"module":"Accounts","label":"Total Outgoing Bills","type":"Document Type","function":"Sum","aggregate_function_based_on":"base_net_total","document_type":"Sales Invoice","is_public":1,"show_percentage_stats":1,"stats_time_interval":"Monthly","filters_json":"[[\\"Sales Invoice\\",\\"docstatus\\",\\"=\\",\\"1\\",false],[\\"Sales Invoice\\",\\"posting_date\\",\\"Timespan\\",\\"this year\\",false]]","doctype":"Number Card","__last_sync_on":"2023-09-14T13:22:34.746Z"}', 'filters': '[["Sales Invoice","docstatus","=","1",false],["Sales Invoice","posting_date","Timespan","this year",false]]', 'cmd': 'frappe.desk.doctype.number_card.number_card.get_result'}
+2023-09-14 18:53:30,707 ERROR frappe New Exception collected in error log
+Site: essentia.dev
+Form Dict: {'doc': '{"name":"Total Outgoing Bills","owner":"Administrator","creation":"2020-07-17 11:25:34.725416","modified":"2020-07-22 13:07:19.633101","modified_by":"Administrator","docstatus":0,"idx":0,"is_standard":1,"module":"Accounts","label":"Total Outgoing Bills","type":"Document Type","function":"Sum","aggregate_function_based_on":"base_net_total","document_type":"Sales Invoice","is_public":1,"show_percentage_stats":1,"stats_time_interval":"Monthly","filters_json":"[[\\"Sales Invoice\\",\\"docstatus\\",\\"=\\",\\"1\\",false],[\\"Sales Invoice\\",\\"posting_date\\",\\"Timespan\\",\\"this year\\",false]]","doctype":"Number Card","__last_sync_on":"2023-09-14T13:22:34.746Z"}', 'filters': '[["Sales Invoice","docstatus","=","1",false],["Sales Invoice","posting_date","Timespan","this year",false]]', 'cmd': 'frappe.desk.doctype.number_card.number_card.get_result'}
+2023-09-14 18:53:39,321 ERROR frappe New Exception collected in error log
+Site: essentia.dev
+Form Dict: {'doc': '{"name":"Total Outgoing Bills","owner":"Administrator","creation":"2020-07-17 11:25:34.725416","modified":"2020-07-22 13:07:19.633101","modified_by":"Administrator","docstatus":0,"idx":0,"is_standard":1,"module":"Accounts","label":"Total Outgoing Bills","type":"Document Type","function":"Sum","aggregate_function_based_on":"base_net_total","document_type":"Sales Invoice","is_public":1,"show_percentage_stats":1,"stats_time_interval":"Monthly","filters_json":"[[\\"Sales Invoice\\",\\"docstatus\\",\\"=\\",\\"1\\",false],[\\"Sales Invoice\\",\\"posting_date\\",\\"Timespan\\",\\"this year\\",false]]","doctype":"Number Card","__last_sync_on":"2023-09-14T13:22:34.746Z"}', 'filters': '[["Sales Invoice","docstatus","=","1",false],["Sales Invoice","posting_date","Timespan","this year",false]]', 'cmd': 'frappe.desk.doctype.number_card.number_card.get_result'}

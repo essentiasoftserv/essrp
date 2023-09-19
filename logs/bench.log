@@ -1,0 +1,352 @@
+2023-08-30 14:00:53,500 DEBUG cd frappe-bench && python3 -m venv env
+2023-08-30 14:00:55,269 DEBUG cd frappe-bench && /Users/manasbajpai/frappe-bench/env/bin/python -m pip install --quiet --upgrade pip
+2023-08-30 14:00:55,668 DEBUG cd frappe-bench && /Users/manasbajpai/frappe-bench/env/bin/python -m pip install --quiet wheel
+2023-08-30 14:00:56,056 LOG Getting frappe
+2023-08-30 14:00:56,056 DEBUG cd frappe-bench/apps && git clone https://github.com/frappe/frappe.git  --depth 1 --origin upstream
+2023-08-30 14:01:03,419 LOG Installing frappe
+2023-08-30 14:01:03,420 DEBUG cd /Users/manasbajpai/frappe-bench && /Users/manasbajpai/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /Users/manasbajpai/frappe-bench/apps/frappe 
+2023-08-30 14:01:21,225 DEBUG cd /Users/manasbajpai/frappe-bench/apps/frappe && yarn install
+2023-08-30 14:01:24,139 WARNING restart failed: Couldn't find supervisorctl in PATH
+2023-08-30 14:01:24,139 DEBUG cd frappe-bench && bench build
+2023-08-30 14:01:24,238 INFO /opt/homebrew/bin/bench build
+2023-08-30 14:01:34,132 LOG setting up backups
+2023-08-30 14:01:34,217 LOG backups were set up
+2023-08-30 14:01:34,217 INFO Bench frappe-bench initialized
+2023-08-30 14:02:14,114 INFO /opt/homebrew/bin/bench start
+2023-08-30 14:02:14,440 INFO /opt/homebrew/bin/bench schedule
+2023-08-30 14:02:14,440 INFO /opt/homebrew/bin/bench serve --port 8000
+2023-08-30 14:02:14,440 INFO /opt/homebrew/bin/bench worker
+2023-08-30 14:02:14,440 INFO /opt/homebrew/bin/bench watch
+2023-08-30 14:06:17,772 INFO /opt/homebrew/bin/bench new-site essentia.dev
+2023-08-30 14:07:03,948 INFO /opt/homebrew/bin/bench new-site essentia.dev
+2023-08-30 14:07:51,434 INFO /opt/homebrew/bin/bench new-site essentia.dev --force
+2023-08-30 14:22:42,931 INFO /opt/homebrew/bin/bench new-site essentia.dev --force
+2023-08-30 15:18:08,360 INFO /opt/homebrew/bin/bench new-site essentia.dev --force
+2023-08-30 15:20:08,587 INFO /opt/homebrew/bin/bench start
+2023-08-30 15:20:08,908 INFO /opt/homebrew/bin/bench worker
+2023-08-30 15:20:08,908 INFO /opt/homebrew/bin/bench serve --port 8000
+2023-08-30 15:20:08,908 INFO /opt/homebrew/bin/bench watch
+2023-08-30 15:20:08,913 INFO /opt/homebrew/bin/bench schedule
+2023-08-30 15:24:45,111 INFO /opt/homebrew/bin/bench get-app erpnext --branch version-13
+2023-08-30 15:24:45,658 LOG Getting erpnext
+2023-08-30 15:24:45,658 DEBUG cd ./apps && git clone https://github.com/frappe/erpnext.git --branch version-13 --depth 1 --origin upstream
+2023-08-30 15:24:54,359 LOG Installing erpnext
+2023-08-30 15:24:54,560 DEBUG cd /Users/manasbajpai/frappe-bench && /Users/manasbajpai/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /Users/manasbajpai/frappe-bench/apps/erpnext 
+2023-08-30 15:25:25,682 DEBUG cd /Users/manasbajpai/frappe-bench/apps/erpnext && yarn install
+2023-08-30 15:25:26,475 DEBUG bench build --app erpnext
+2023-08-30 15:25:26,558 INFO /opt/homebrew/bin/bench build --app erpnext
+2023-08-30 15:25:27,722 WARNING restart failed: Couldn't find supervisorctl in PATH
+2023-08-30 15:27:50,427 INFO /opt/homebrew/bin/bench start
+2023-08-30 15:27:50,752 INFO /opt/homebrew/bin/bench watch
+2023-08-30 15:27:50,752 INFO /opt/homebrew/bin/bench serve --port 8000
+2023-08-30 15:27:50,757 INFO /opt/homebrew/bin/bench worker
+2023-08-30 15:27:50,767 INFO /opt/homebrew/bin/bench schedule
+2023-08-30 15:29:09,794 INFO /opt/homebrew/bin/bench --site essentia.dev install-app erpnext
+2023-08-30 15:35:51,956 INFO /opt/homebrew/bin/bench --site essentia.dev install-app erpnext
+2023-08-30 15:36:34,265 INFO /opt/homebrew/bin/bench --site essentia.dev install-app erpnext --force
+2023-08-30 15:38:43,260 INFO /opt/homebrew/bin/bench get-app https://github.com/frappe/erpnext --branch version-13
+2023-08-30 15:38:50,776 INFO App moved from apps/erpnext to archived/apps/erpnext-2023-08-30
+2023-08-30 15:38:50,786 LOG Getting erpnext
+2023-08-30 15:38:50,786 DEBUG cd ./apps && git clone https://github.com/frappe/erpnext --branch version-13 --depth 1 --origin upstream
+2023-08-30 15:38:59,462 LOG Installing erpnext
+2023-08-30 15:38:59,542 DEBUG cd /Users/manasbajpai/frappe-bench && /Users/manasbajpai/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /Users/manasbajpai/frappe-bench/apps/erpnext 
+2023-08-30 15:39:02,868 DEBUG cd /Users/manasbajpai/frappe-bench/apps/erpnext && yarn install
+2023-08-30 15:39:03,210 DEBUG bench build --app erpnext
+2023-08-30 15:39:03,283 INFO /opt/homebrew/bin/bench build --app erpnext
+2023-08-30 15:39:04,400 WARNING restart failed: Couldn't find supervisorctl in PATH
+2023-08-30 15:40:00,906 INFO /opt/homebrew/bin/bench get-app https://github.com/frappe/erpnext --branch version-13 --resolve-deps
+2023-08-30 15:40:01,436 WARNING /opt/homebrew/bin/bench get-app https://github.com/frappe/erpnext --branch version-13 --resolve-deps executed with exit code 1
+2023-08-30 15:40:31,880 INFO /opt/homebrew/bin/bench get-app https://github.com/frappe/erpnext --branch version-13
+2023-08-30 15:40:34,734 INFO App moved from apps/erpnext to archived/apps/erpnext-2023-08-30_1
+2023-08-30 15:40:34,760 LOG Getting erpnext
+2023-08-30 15:40:34,760 DEBUG cd ./apps && git clone https://github.com/frappe/erpnext --branch version-13 --depth 1 --origin upstream
+2023-08-30 15:40:43,090 LOG Installing erpnext
+2023-08-30 15:40:43,168 DEBUG cd /Users/manasbajpai/frappe-bench && /Users/manasbajpai/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /Users/manasbajpai/frappe-bench/apps/erpnext 
+2023-08-30 15:40:46,494 DEBUG cd /Users/manasbajpai/frappe-bench/apps/erpnext && yarn install
+2023-08-30 15:40:46,826 DEBUG bench build --app erpnext
+2023-08-30 15:40:46,898 INFO /opt/homebrew/bin/bench build --app erpnext
+2023-08-30 15:40:47,990 WARNING restart failed: Couldn't find supervisorctl in PATH
+2023-08-30 15:46:24,208 INFO /opt/homebrew/bin/bench --site essentia.dev install-app erpnext --force
+2023-08-30 15:55:45,040 INFO /opt/homebrew/bin/bench get-app erpnext --branch version-13 --force
+2023-08-30 15:55:45,044 WARNING /opt/homebrew/bin/bench get-app erpnext --branch version-13 --force executed with exit code 2
+2023-08-30 15:55:58,493 INFO /opt/homebrew/bin/bench get-app erpnext --branch version-13
+2023-08-30 15:56:02,308 INFO App moved from apps/erpnext to archived/apps/erpnext-2023-08-30_2
+2023-08-30 15:56:02,335 LOG Getting erpnext
+2023-08-30 15:56:02,335 DEBUG cd ./apps && git clone https://github.com/frappe/erpnext.git --branch version-13 --depth 1 --origin upstream
+2023-08-30 15:56:10,740 LOG Installing erpnext
+2023-08-30 15:56:10,829 DEBUG cd /Users/manasbajpai/frappe-bench && /Users/manasbajpai/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /Users/manasbajpai/frappe-bench/apps/erpnext 
+2023-08-30 15:56:14,401 DEBUG cd /Users/manasbajpai/frappe-bench/apps/erpnext && yarn install
+2023-08-30 15:56:14,774 DEBUG bench build --app erpnext
+2023-08-30 15:56:14,862 INFO /opt/homebrew/bin/bench build --app erpnext
+2023-08-30 15:56:16,136 WARNING restart failed: Couldn't find supervisorctl in PATH
+2023-08-30 15:57:11,988 INFO /opt/homebrew/bin/bench --site essentia.dev install-app erpnext --force
+2023-08-30 16:08:58,846 INFO /opt/homebrew/bin/bench get-app --resolve-deps erpnext
+2023-08-30 16:09:05,913 LOG Getting erpnext
+2023-08-30 16:09:05,913 DEBUG cd ./apps && git clone erpnext --branch version-13 --depth 1 --origin upstream
+2023-08-30 16:09:05,920 WARNING cd ./apps && git clone erpnext --branch version-13 --depth 1 --origin upstream executed with exit code 128
+2023-08-30 16:09:05,920 WARNING /opt/homebrew/bin/bench get-app --resolve-deps erpnext executed with exit code 1
+2023-08-30 16:10:38,832 INFO /opt/homebrew/bin/bench get-app erpnext --branch version-13
+2023-08-30 16:10:39,342 LOG Getting erpnext
+2023-08-30 16:10:39,342 DEBUG cd ./apps && git clone https://github.com/frappe/erpnext.git --branch version-13 --depth 1 --origin upstream
+2023-08-30 16:10:47,344 LOG Installing erpnext
+2023-08-30 16:10:47,627 DEBUG cd /Users/manasbajpai/frappe-bench && /Users/manasbajpai/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /Users/manasbajpai/frappe-bench/apps/erpnext 
+2023-08-30 16:10:50,997 DEBUG cd /Users/manasbajpai/frappe-bench/apps/erpnext && yarn install
+2023-08-30 16:10:51,336 DEBUG bench build --app erpnext
+2023-08-30 16:10:51,417 INFO /opt/homebrew/bin/bench build --app erpnext
+2023-08-30 16:10:52,574 WARNING restart failed: Couldn't find supervisorctl in PATH
+2023-08-30 16:11:10,703 INFO /opt/homebrew/bin/bench --resolve-deps erpnext
+2023-08-30 16:11:21,609 INFO /opt/homebrew/bin/bench get-app --resolve-deps erpnext
+2023-08-30 16:11:34,216 LOG Getting erpnext
+2023-08-30 16:11:34,217 DEBUG cd ./apps && git clone erpnext --branch version-13 --depth 1 --origin upstream
+2023-08-30 16:11:34,225 WARNING cd ./apps && git clone erpnext --branch version-13 --depth 1 --origin upstream executed with exit code 128
+2023-08-30 16:11:34,225 WARNING /opt/homebrew/bin/bench get-app --resolve-deps erpnext executed with exit code 1
+2023-08-30 16:11:38,818 INFO /opt/homebrew/bin/bench get-app --resolve-deps erpnext
+2023-08-30 16:11:39,746 LOG Getting erpnext
+2023-08-30 16:11:39,746 DEBUG cd ./apps && git clone https://github.com/frappe/erpnext.git  --depth 1 --origin upstream
+2023-08-30 16:11:47,100 LOG Installing erpnext
+2023-08-30 16:11:47,191 DEBUG cd /Users/manasbajpai/frappe-bench && /Users/manasbajpai/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /Users/manasbajpai/frappe-bench/apps/erpnext 
+2023-08-30 16:11:50,943 DEBUG cd /Users/manasbajpai/frappe-bench/apps/erpnext && yarn install
+2023-08-30 16:11:51,207 DEBUG bench build --app erpnext
+2023-08-30 16:11:51,286 INFO /opt/homebrew/bin/bench build --app erpnext
+2023-08-30 16:11:52,865 WARNING restart failed: Couldn't find supervisorctl in PATH
+2023-08-30 16:12:12,949 INFO /opt/homebrew/bin/bench --site essentia.dev install-app erpnext --force
+2023-08-30 16:13:34,359 INFO /opt/homebrew/bin/bench start
+2023-08-30 16:13:34,644 INFO /opt/homebrew/bin/bench watch
+2023-08-30 16:13:34,652 INFO /opt/homebrew/bin/bench worker
+2023-08-30 16:13:34,670 INFO /opt/homebrew/bin/bench schedule
+2023-08-30 16:13:34,671 INFO /opt/homebrew/bin/bench serve --port 8000
+2023-08-30 18:53:54,803 INFO /opt/homebrew/bin/bench use essentia.dev
+2023-08-30 18:54:24,001 INFO /opt/homebrew/bin/bench use essentia.dev
+2023-08-30 18:54:31,602 INFO /opt/homebrew/bin/bench start
+2023-08-30 18:54:31,891 INFO /opt/homebrew/bin/bench serve --port 8000
+2023-08-30 18:54:31,895 INFO /opt/homebrew/bin/bench schedule
+2023-08-30 18:54:31,900 INFO /opt/homebrew/bin/bench worker
+2023-08-30 18:54:31,900 INFO /opt/homebrew/bin/bench watch
+2023-08-30 18:55:23,039 INFO /opt/homebrew/bin/bench migrate
+2023-08-30 18:56:38,523 INFO /opt/homebrew/bin/bench start
+2023-08-30 18:56:38,787 INFO /opt/homebrew/bin/bench schedule
+2023-08-30 18:56:38,791 INFO /opt/homebrew/bin/bench serve --port 8000
+2023-08-30 18:56:38,799 INFO /opt/homebrew/bin/bench watch
+2023-08-30 18:56:38,820 INFO /opt/homebrew/bin/bench worker
+2023-08-30 19:14:22,142 INFO /opt/homebrew/bin/bench migrate
+2023-08-30 19:16:16,407 INFO /opt/homebrew/bin/bench update
+2023-08-30 19:16:17,621 WARNING shallow_clone is set in your bench config.
+However without passing the --reset flag, your repositories will be unshallowed.
+To avoid this, cancel this operation and run `bench update --reset`.
+
+Consider the consequences of `git reset --hard` on your apps before you run that.
+To avoid seeing this warning, set shallow_clone to false in your common_site_config.json
+		
+2023-08-30 19:16:30,429 DEBUG cd /Users/manasbajpai/frappe-bench/apps/frappe && git fetch upstream --unshallow
+2023-08-30 19:18:10,969 LOG pulling frappe
+2023-08-30 19:18:10,969 DEBUG cd /Users/manasbajpai/frappe-bench/apps/frappe && git pull  upstream develop
+2023-08-30 19:18:11,966 DEBUG cd /Users/manasbajpai/frappe-bench/apps/frappe && find . -name "*.pyc" -delete
+2023-08-30 19:18:12,331 DEBUG cd /Users/manasbajpai/frappe-bench/apps/erpnext && git fetch upstream --unshallow
+2023-08-30 19:23:10,320 LOG pulling erpnext
+2023-08-30 19:23:10,320 DEBUG cd /Users/manasbajpai/frappe-bench/apps/erpnext && git pull  upstream develop
+2023-08-30 19:23:11,388 DEBUG cd /Users/manasbajpai/frappe-bench/apps/erpnext && find . -name "*.pyc" -delete
+2023-08-30 19:23:11,502 DEBUG cd /Users/manasbajpai/frappe-bench && /Users/manasbajpai/frappe-bench/env/bin/python -m pip install --quiet --upgrade pip
+2023-08-30 19:23:12,330 LOG Installing frappe
+2023-08-30 19:23:12,330 DEBUG cd /Users/manasbajpai/frappe-bench && /Users/manasbajpai/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /Users/manasbajpai/frappe-bench/apps/frappe 
+2023-08-30 19:23:14,995 DEBUG cd /Users/manasbajpai/frappe-bench/apps/frappe && yarn install
+2023-08-30 19:23:16,725 LOG Installing erpnext
+2023-08-30 19:23:16,726 DEBUG cd /Users/manasbajpai/frappe-bench && /Users/manasbajpai/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /Users/manasbajpai/frappe-bench/apps/erpnext 
+2023-08-30 19:23:18,681 DEBUG cd /Users/manasbajpai/frappe-bench/apps/erpnext && yarn install
+2023-09-01 12:05:33,587 INFO /opt/homebrew/bin/bench start
+2023-09-01 12:05:34,261 INFO /opt/homebrew/bin/bench schedule
+2023-09-01 12:05:34,262 INFO /opt/homebrew/bin/bench worker
+2023-09-01 12:05:34,268 INFO /opt/homebrew/bin/bench serve --port 8000
+2023-09-01 12:05:34,268 INFO /opt/homebrew/bin/bench watch
+2023-09-01 12:29:34,268 INFO /opt/homebrew/bin/bench use essentia.dev
+2023-09-02 00:00:00,735 INFO /opt/homebrew/bin/bench --verbose --site all backup
+2023-09-04 00:00:02,048 INFO /opt/homebrew/bin/bench --verbose --site all backup
+2023-09-04 11:43:47,695 INFO /opt/homebrew/bin/bench start
+2023-09-04 11:43:48,087 INFO /opt/homebrew/bin/bench schedule
+2023-09-04 11:43:48,100 INFO /opt/homebrew/bin/bench serve --port 8000
+2023-09-04 11:43:48,102 INFO /opt/homebrew/bin/bench worker
+2023-09-04 11:43:48,117 INFO /opt/homebrew/bin/bench watch
+2023-09-04 12:00:00,499 INFO /opt/homebrew/bin/bench --verbose --site all backup
+2023-09-04 18:00:00,775 INFO /opt/homebrew/bin/bench --verbose --site all backup
+2023-09-06 00:00:00,860 INFO /opt/homebrew/bin/bench --verbose --site all backup
+2023-09-06 10:41:26,181 INFO /opt/homebrew/bin/bench start
+2023-09-06 10:41:26,565 INFO /opt/homebrew/bin/bench worker
+2023-09-06 10:41:26,566 INFO /opt/homebrew/bin/bench serve --port 8000
+2023-09-06 10:41:26,566 INFO /opt/homebrew/bin/bench watch
+2023-09-06 10:41:26,587 INFO /opt/homebrew/bin/bench schedule
+2023-09-06 10:48:38,404 INFO /opt/homebrew/bin/bench start
+2023-09-06 10:48:38,711 INFO /opt/homebrew/bin/bench watch
+2023-09-06 10:48:38,725 INFO /opt/homebrew/bin/bench schedule
+2023-09-06 10:48:38,732 INFO /opt/homebrew/bin/bench serve --port 8000
+2023-09-06 10:48:38,753 INFO /opt/homebrew/bin/bench worker
+2023-09-06 11:09:05,591 INFO /opt/homebrew/bin/bench get-app hrms
+2023-09-06 11:09:06,274 LOG Getting hrms
+2023-09-06 11:09:06,275 DEBUG cd ./apps && git clone https://github.com/frappe/hrms.git  --depth 1 --origin upstream
+2023-09-06 11:09:08,446 LOG Installing hrms
+2023-09-06 11:09:08,748 DEBUG cd /Users/manasbajpai/frappe-bench && /Users/manasbajpai/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /Users/manasbajpai/frappe-bench/apps/hrms 
+2023-09-06 11:09:10,685 DEBUG cd /Users/manasbajpai/frappe-bench/apps/hrms && yarn install
+2023-09-06 11:09:12,231 DEBUG bench build --app hrms
+2023-09-06 11:09:12,322 INFO /opt/homebrew/bin/bench build --app hrms
+2023-09-06 11:09:14,110 WARNING restart failed: Couldn't find supervisorctl in PATH
+2023-09-06 11:09:32,748 INFO /opt/homebrew/bin/bench start
+2023-09-06 11:09:33,109 INFO /opt/homebrew/bin/bench schedule
+2023-09-06 11:09:33,112 INFO /opt/homebrew/bin/bench serve --port 8000
+2023-09-06 11:09:33,112 INFO /opt/homebrew/bin/bench watch
+2023-09-06 11:09:33,124 INFO /opt/homebrew/bin/bench worker
+2023-09-06 11:12:46,280 INFO /opt/homebrew/bin/bench --site essentia.dev install-app hrms
+2023-09-06 11:16:56,468 INFO /opt/homebrew/bin/bench get-app hrms
+2023-09-06 11:17:01,291 INFO App moved from apps/hrms to archived/apps/hrms-2023-09-06
+2023-09-06 11:17:01,311 LOG Getting hrms
+2023-09-06 11:17:01,311 DEBUG cd ./apps && git clone https://github.com/frappe/hrms.git --branch develop --depth 1 --origin upstream
+2023-09-06 11:17:03,498 LOG Installing hrms
+2023-09-06 11:17:03,785 DEBUG cd /Users/manasbajpai/frappe-bench && /Users/manasbajpai/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /Users/manasbajpai/frappe-bench/apps/hrms 
+2023-09-06 11:17:05,682 DEBUG cd /Users/manasbajpai/frappe-bench/apps/hrms && yarn install
+2023-09-06 11:17:06,052 DEBUG bench build --app hrms
+2023-09-06 11:17:06,143 INFO /opt/homebrew/bin/bench build --app hrms
+2023-09-06 11:17:08,001 WARNING restart failed: Couldn't find supervisorctl in PATH
+2023-09-06 11:17:18,491 INFO /opt/homebrew/bin/bench --site essentia.dev install-app hrms
+2023-09-06 11:38:27,628 INFO /opt/homebrew/bin/bench --site essentia.dev uninstall-app hrms
+2023-09-06 11:38:44,950 INFO /opt/homebrew/bin/bench remove-app hrms
+2023-09-06 11:38:45,021 INFO /opt/homebrew/bin/bench --site all list-apps --format json
+2023-09-06 11:38:45,517 INFO /opt/homebrew/bin/bench --site essentia.dev list-apps
+2023-09-06 11:38:45,953 DEBUG cd /Users/manasbajpai/frappe-bench && /Users/manasbajpai/frappe-bench/env/bin/python -m pip uninstall -y hrms
+2023-09-06 11:38:46,313 INFO App moved from apps/hrms to archived/apps/hrms-2023-09-06_1
+2023-09-06 11:38:46,319 WARNING restart failed: Couldn't find supervisorctl in PATH
+2023-09-06 11:40:02,144 INFO /opt/homebrew/bin/bench install-app hrms
+2023-09-06 11:41:17,520 INFO /opt/homebrew/bin/bench get-app hrms
+2023-09-06 11:41:18,114 LOG Getting hrms
+2023-09-06 11:41:18,114 DEBUG cd ./apps && git clone https://github.com/frappe/hrms.git  --depth 1 --origin upstream
+2023-09-06 11:41:20,260 LOG Installing hrms
+2023-09-06 11:41:20,355 DEBUG cd /Users/manasbajpai/frappe-bench && /Users/manasbajpai/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /Users/manasbajpai/frappe-bench/apps/hrms 
+2023-09-06 11:41:22,495 DEBUG cd /Users/manasbajpai/frappe-bench/apps/hrms && yarn install
+2023-09-06 11:41:22,935 DEBUG bench build --app hrms
+2023-09-06 11:41:23,030 INFO /opt/homebrew/bin/bench build --app hrms
+2023-09-06 11:41:25,108 WARNING restart failed: Couldn't find supervisorctl in PATH
+2023-09-06 11:42:33,198 INFO /opt/homebrew/bin/bench --site essentia.dev install-app hrms
+2023-09-06 11:44:25,083 INFO /opt/homebrew/bin/bench --site essentia.dev mariadb
+2023-09-06 11:53:51,384 INFO /opt/homebrew/bin/bench --site essentia.dev install-app hrms
+2023-09-06 11:55:10,692 INFO /opt/homebrew/bin/bench --site essentia.dev install-app hrms
+2023-09-06 11:56:32,928 INFO /opt/homebrew/bin/bench start
+2023-09-06 11:56:33,207 INFO /opt/homebrew/bin/bench serve --port 8000
+2023-09-06 11:56:33,214 INFO /opt/homebrew/bin/bench worker
+2023-09-06 11:56:33,216 INFO /opt/homebrew/bin/bench watch
+2023-09-06 11:56:33,216 INFO /opt/homebrew/bin/bench schedule
+2023-09-06 12:00:01,356 INFO /opt/homebrew/bin/bench --verbose --site all backup
+2023-09-06 13:34:01,723 INFO /opt/homebrew/bin/bench start
+2023-09-06 13:34:02,116 INFO /opt/homebrew/bin/bench watch
+2023-09-06 13:34:02,116 INFO /opt/homebrew/bin/bench schedule
+2023-09-06 13:34:02,118 INFO /opt/homebrew/bin/bench worker
+2023-09-06 13:34:02,122 INFO /opt/homebrew/bin/bench serve --port 8000
+2023-09-06 13:50:13,108 INFO /opt/homebrew/bin/bench start
+2023-09-06 13:50:13,412 INFO /opt/homebrew/bin/bench serve --port 8000
+2023-09-06 13:50:13,417 INFO /opt/homebrew/bin/bench schedule
+2023-09-06 13:50:13,422 INFO /opt/homebrew/bin/bench worker
+2023-09-06 13:50:13,434 INFO /opt/homebrew/bin/bench watch
+2023-09-06 15:00:29,201 INFO /opt/homebrew/bin/bench start
+2023-09-06 15:00:29,518 INFO /opt/homebrew/bin/bench schedule
+2023-09-06 15:00:29,525 INFO /opt/homebrew/bin/bench serve --port 8000
+2023-09-06 15:00:29,535 INFO /opt/homebrew/bin/bench watch
+2023-09-06 15:00:29,536 INFO /opt/homebrew/bin/bench worker
+2023-09-06 15:24:32,779 INFO /opt/homebrew/bin/bench start
+2023-09-06 15:24:33,113 INFO /opt/homebrew/bin/bench schedule
+2023-09-06 15:24:33,124 INFO /opt/homebrew/bin/bench watch
+2023-09-06 15:24:33,125 INFO /opt/homebrew/bin/bench worker
+2023-09-06 15:24:33,145 INFO /opt/homebrew/bin/bench serve --port 8000
+2023-09-06 21:56:10,711 INFO /opt/homebrew/bin/bench start
+2023-09-06 21:56:11,087 INFO /opt/homebrew/bin/bench worker
+2023-09-06 21:56:11,087 INFO /opt/homebrew/bin/bench serve --port 8000
+2023-09-06 21:56:11,092 INFO /opt/homebrew/bin/bench schedule
+2023-09-06 21:56:11,101 INFO /opt/homebrew/bin/bench watch
+2023-09-06 22:22:10,134 INFO /opt/homebrew/bin/bench start
+2023-09-06 22:22:10,421 INFO /opt/homebrew/bin/bench schedule
+2023-09-06 22:22:10,435 INFO /opt/homebrew/bin/bench watch
+2023-09-06 22:22:10,436 INFO /opt/homebrew/bin/bench serve --port 8000
+2023-09-06 22:22:10,461 INFO /opt/homebrew/bin/bench worker
+2023-09-07 12:46:51,929 INFO /opt/homebrew/bin/bench start
+2023-09-07 12:46:52,295 INFO /opt/homebrew/bin/bench worker
+2023-09-07 12:46:52,295 INFO /opt/homebrew/bin/bench serve --port 8000
+2023-09-07 12:46:52,302 INFO /opt/homebrew/bin/bench watch
+2023-09-07 12:46:52,313 INFO /opt/homebrew/bin/bench schedule
+2023-09-07 12:48:12,009 INFO /opt/homebrew/bin/bench start
+2023-09-07 12:48:12,303 INFO /opt/homebrew/bin/bench schedule
+2023-09-07 12:48:12,304 INFO /opt/homebrew/bin/bench worker
+2023-09-07 12:48:12,309 INFO /opt/homebrew/bin/bench serve --port 8000
+2023-09-07 12:48:12,318 INFO /opt/homebrew/bin/bench watch
+2023-09-07 12:49:26,178 INFO /opt/homebrew/bin/bench start
+2023-09-07 12:49:26,463 INFO /opt/homebrew/bin/bench worker
+2023-09-07 12:49:26,465 INFO /opt/homebrew/bin/bench serve --port 8000
+2023-09-07 12:49:26,471 INFO /opt/homebrew/bin/bench schedule
+2023-09-07 12:49:26,473 INFO /opt/homebrew/bin/bench watch
+2023-09-07 12:53:18,326 INFO /opt/homebrew/bin/bench start
+2023-09-07 12:53:18,603 INFO /opt/homebrew/bin/bench schedule
+2023-09-07 12:53:18,616 INFO /opt/homebrew/bin/bench worker
+2023-09-07 12:53:18,616 INFO /opt/homebrew/bin/bench serve --port 8000
+2023-09-07 12:53:18,621 INFO /opt/homebrew/bin/bench watch
+2023-09-07 12:57:01,038 INFO /opt/homebrew/bin/bench start
+2023-09-07 12:57:01,374 INFO /opt/homebrew/bin/bench watch
+2023-09-07 12:57:01,374 INFO /opt/homebrew/bin/bench serve --port 8000
+2023-09-07 12:57:01,382 INFO /opt/homebrew/bin/bench worker
+2023-09-07 12:57:01,394 INFO /opt/homebrew/bin/bench schedule
+2023-09-07 12:59:09,077 INFO /opt/homebrew/bin/bench start
+2023-09-07 12:59:09,374 INFO /opt/homebrew/bin/bench watch
+2023-09-07 12:59:09,376 INFO /opt/homebrew/bin/bench serve --port 8000
+2023-09-07 12:59:09,392 INFO /opt/homebrew/bin/bench schedule
+2023-09-07 12:59:09,392 INFO /opt/homebrew/bin/bench worker
+2023-09-08 00:00:01,092 INFO /opt/homebrew/bin/bench --verbose --site all backup
+2023-09-08 12:00:01,784 INFO /opt/homebrew/bin/bench --verbose --site all backup
+2023-09-08 18:00:01,328 INFO /opt/homebrew/bin/bench --verbose --site all backup
+2023-09-09 00:00:01,515 INFO /opt/homebrew/bin/bench --verbose --site all backup
+2023-09-09 18:00:01,195 INFO /opt/homebrew/bin/bench --verbose --site all backup
+2023-09-10 18:00:01,342 INFO /opt/homebrew/bin/bench --verbose --site all backup
+2023-09-11 00:00:01,234 INFO /opt/homebrew/bin/bench --verbose --site all backup
+2023-09-11 11:49:12,435 INFO /opt/homebrew/bin/bench start
+2023-09-11 11:49:12,855 INFO /opt/homebrew/bin/bench watch
+2023-09-11 11:49:12,856 INFO /opt/homebrew/bin/bench schedule
+2023-09-11 11:49:12,858 INFO /opt/homebrew/bin/bench serve --port 8000
+2023-09-11 11:49:12,859 INFO /opt/homebrew/bin/bench worker
+2023-09-11 12:00:00,875 INFO /opt/homebrew/bin/bench --verbose --site all backup
+2023-09-11 18:00:01,362 INFO /opt/homebrew/bin/bench --verbose --site all backup
+2023-09-12 01:08:05,971 INFO /opt/homebrew/bin/bench start
+2023-09-12 01:08:06,281 INFO /opt/homebrew/bin/bench watch
+2023-09-12 01:08:06,283 INFO /opt/homebrew/bin/bench worker
+2023-09-12 01:08:06,298 INFO /opt/homebrew/bin/bench schedule
+2023-09-12 01:08:06,299 INFO /opt/homebrew/bin/bench serve --port 8000
+2023-09-12 11:55:27,007 INFO /opt/homebrew/bin/bench start
+2023-09-12 11:55:27,347 INFO /opt/homebrew/bin/bench schedule
+2023-09-12 11:55:27,347 INFO /opt/homebrew/bin/bench watch
+2023-09-12 11:55:27,358 INFO /opt/homebrew/bin/bench worker
+2023-09-12 11:55:27,363 INFO /opt/homebrew/bin/bench serve --port 8000
+2023-09-12 12:00:01,210 INFO /opt/homebrew/bin/bench --verbose --site all backup
+2023-09-12 18:00:00,977 INFO /opt/homebrew/bin/bench --verbose --site all backup
+2023-09-13 00:00:01,984 INFO /opt/homebrew/bin/bench --verbose --site all backup
+2023-09-13 13:29:53,851 INFO /opt/homebrew/bin/bench start
+2023-09-13 13:29:54,227 INFO /opt/homebrew/bin/bench schedule
+2023-09-13 13:29:54,229 INFO /opt/homebrew/bin/bench worker
+2023-09-13 13:29:54,232 INFO /opt/homebrew/bin/bench watch
+2023-09-13 13:29:54,241 INFO /opt/homebrew/bin/bench serve --port 8000
+2023-09-13 18:37:51,153 INFO /opt/homebrew/bin/bench start
+2023-09-13 18:37:51,466 INFO /opt/homebrew/bin/bench serve --port 8000
+2023-09-13 18:37:51,473 INFO /opt/homebrew/bin/bench worker
+2023-09-13 18:37:51,473 INFO /opt/homebrew/bin/bench watch
+2023-09-13 18:37:51,475 INFO /opt/homebrew/bin/bench schedule
+2023-09-14 00:00:01,343 INFO /opt/homebrew/bin/bench --verbose --site all backup
+2023-09-14 12:00:00,794 INFO /opt/homebrew/bin/bench --verbose --site all backup
+2023-09-14 17:56:13,019 INFO /opt/homebrew/bin/bench start
+2023-09-14 17:56:13,407 INFO /opt/homebrew/bin/bench schedule
+2023-09-14 17:56:13,410 INFO /opt/homebrew/bin/bench serve --port 8000
+2023-09-14 17:56:13,414 INFO /opt/homebrew/bin/bench worker
+2023-09-14 17:56:13,421 INFO /opt/homebrew/bin/bench watch
+2023-09-14 18:00:00,725 INFO /opt/homebrew/bin/bench --verbose --site all backup
+2023-09-17 00:00:01,446 INFO /opt/homebrew/bin/bench --verbose --site all backup
+2023-09-17 18:00:00,713 INFO /opt/homebrew/bin/bench --verbose --site all backup
+2023-09-17 22:37:07,951 INFO /opt/homebrew/bin/bench start
+2023-09-17 22:37:08,305 INFO /opt/homebrew/bin/bench watch
+2023-09-17 22:37:08,305 INFO /opt/homebrew/bin/bench serve --port 8000
+2023-09-17 22:37:08,318 INFO /opt/homebrew/bin/bench schedule
+2023-09-17 22:37:08,328 INFO /opt/homebrew/bin/bench worker
+2023-09-18 00:00:00,644 INFO /opt/homebrew/bin/bench --verbose --site all backup
+2023-09-18 09:54:44,021 INFO /opt/homebrew/bin/bench start
+2023-09-18 09:54:44,398 INFO /opt/homebrew/bin/bench watch
+2023-09-18 09:54:44,398 INFO /opt/homebrew/bin/bench serve --port 8000
+2023-09-18 09:54:44,401 INFO /opt/homebrew/bin/bench schedule
+2023-09-18 09:54:44,411 INFO /opt/homebrew/bin/bench worker
+2023-09-19 12:00:37,721 INFO /opt/homebrew/bin/bench --verbose --site all backup
