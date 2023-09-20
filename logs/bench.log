@@ -350,3 +350,16 @@ To avoid seeing this warning, set shallow_clone to false in your common_site_con
 2023-09-18 09:54:44,401 INFO /opt/homebrew/bin/bench schedule
 2023-09-18 09:54:44,411 INFO /opt/homebrew/bin/bench worker
 2023-09-19 12:00:37,721 INFO /opt/homebrew/bin/bench --verbose --site all backup
+2023-09-19 18:00:00,973 INFO /opt/homebrew/bin/bench --verbose --site all backup
+2023-09-20 00:00:01,310 INFO /opt/homebrew/bin/bench --verbose --site all backup
+2023-09-20 12:00:00,701 INFO /opt/homebrew/bin/bench --verbose --site all backup
+2023-09-20 14:59:39,285 INFO /opt/homebrew/bin/bench start
+2023-09-20 14:59:39,703 INFO /opt/homebrew/bin/bench worker
+2023-09-20 14:59:39,705 INFO /opt/homebrew/bin/bench schedule
+2023-09-20 14:59:39,710 INFO /opt/homebrew/bin/bench watch
+2023-09-20 14:59:39,721 INFO /opt/homebrew/bin/bench serve --port 8000
+2023-09-20 15:09:36,081 INFO /opt/homebrew/bin/bench start
+2023-09-20 15:09:36,385 INFO /opt/homebrew/bin/bench watch
+2023-09-20 15:09:36,387 INFO /opt/homebrew/bin/bench serve --port 8000
+2023-09-20 15:09:36,405 INFO /opt/homebrew/bin/bench worker
+2023-09-20 15:09:36,424 INFO /opt/homebrew/bin/bench schedule
