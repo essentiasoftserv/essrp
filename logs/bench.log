@@ -363,3 +363,43 @@ To avoid seeing this warning, set shallow_clone to false in your common_site_con
 2023-09-20 15:09:36,387 INFO /opt/homebrew/bin/bench serve --port 8000
 2023-09-20 15:09:36,405 INFO /opt/homebrew/bin/bench worker
 2023-09-20 15:09:36,424 INFO /opt/homebrew/bin/bench schedule
+2023-10-12 18:00:01,173 INFO /opt/homebrew/bin/bench --verbose --site all backup
+2023-10-13 00:00:00,908 INFO /opt/homebrew/bin/bench --verbose --site all backup
+2023-10-14 00:00:01,212 INFO /opt/homebrew/bin/bench --verbose --site all backup
+2023-10-14 12:00:00,638 INFO /opt/homebrew/bin/bench --verbose --site all backup
+2023-10-16 12:00:01,596 INFO /opt/homebrew/bin/bench --verbose --site all backup
+2023-10-17 00:00:01,079 INFO /opt/homebrew/bin/bench --verbose --site all backup
+2023-10-17 12:00:00,567 INFO /opt/homebrew/bin/bench --verbose --site all backup
+2023-10-17 18:00:00,515 INFO /opt/homebrew/bin/bench --verbose --site all backup
+2023-10-18 12:00:01,552 INFO /opt/homebrew/bin/bench --verbose --site all backup
+2023-10-19 00:00:00,715 INFO /opt/homebrew/bin/bench --verbose --site all backup
+2023-10-19 12:00:00,768 INFO /opt/homebrew/bin/bench --verbose --site all backup
+2023-10-20 00:00:00,724 INFO /opt/homebrew/bin/bench --verbose --site all backup
+2023-10-21 18:00:01,417 INFO /opt/homebrew/bin/bench --verbose --site all backup
+2023-10-22 00:00:01,297 INFO /opt/homebrew/bin/bench --verbose --site all backup
+2023-10-25 00:00:01,190 INFO /opt/homebrew/bin/bench --verbose --site all backup
+2023-10-25 18:00:01,168 INFO /opt/homebrew/bin/bench --verbose --site all backup
+2023-10-26 00:00:00,991 INFO /opt/homebrew/bin/bench --verbose --site all backup
+2023-10-27 00:00:00,703 INFO /opt/homebrew/bin/bench --verbose --site all backup
+2023-10-27 12:00:00,740 INFO /opt/homebrew/bin/bench --verbose --site all backup
+2023-10-28 18:00:01,127 INFO /opt/homebrew/bin/bench --verbose --site all backup
+2023-10-30 00:00:01,353 INFO /opt/homebrew/bin/bench --verbose --site all backup
+2023-10-30 12:00:01,351 INFO /opt/homebrew/bin/bench --verbose --site all backup
+2023-10-31 00:00:00,980 INFO /opt/homebrew/bin/bench --verbose --site all backup
+2023-10-31 09:45:09,404 INFO /opt/homebrew/bin/bench start
+2023-10-31 09:45:09,773 INFO /opt/homebrew/bin/bench watch
+2023-10-31 09:45:09,777 INFO /opt/homebrew/bin/bench serve --port 8000
+2023-10-31 09:45:09,777 INFO /opt/homebrew/bin/bench schedule
+2023-10-31 09:45:09,789 INFO /opt/homebrew/bin/bench worker
+2023-10-31 12:02:36,485 INFO /opt/homebrew/bin/bench --verbose --site all backup
+2023-10-31 12:47:34,410 INFO /opt/homebrew/bin/bench start
+2023-10-31 12:47:34,771 INFO /opt/homebrew/bin/bench schedule
+2023-10-31 12:47:34,779 INFO /opt/homebrew/bin/bench serve --port 8000
+2023-10-31 12:47:34,786 INFO /opt/homebrew/bin/bench watch
+2023-10-31 12:47:34,786 INFO /opt/homebrew/bin/bench worker
+2023-11-01 16:54:03,248 INFO /opt/homebrew/bin/bench start
+2023-11-01 16:54:03,602 INFO /opt/homebrew/bin/bench serve --port 8000
+2023-11-01 16:54:03,602 INFO /opt/homebrew/bin/bench worker
+2023-11-01 16:54:03,602 INFO /opt/homebrew/bin/bench schedule
+2023-11-01 16:54:03,611 INFO /opt/homebrew/bin/bench watch
+2023-11-01 18:00:00,982 INFO /opt/homebrew/bin/bench --verbose --site all backup
