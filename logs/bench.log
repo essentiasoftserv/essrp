@@ -363,3 +363,24 @@ To avoid seeing this warning, set shallow_clone to false in your common_site_con
 2023-09-20 15:09:36,387 INFO /opt/homebrew/bin/bench serve --port 8000
 2023-09-20 15:09:36,405 INFO /opt/homebrew/bin/bench worker
 2023-09-20 15:09:36,424 INFO /opt/homebrew/bin/bench schedule
+2023-11-01 18:09:08,203 INFO /opt/homebrew/bin/bench start
+2023-11-01 18:09:08,499 INFO /opt/homebrew/bin/bench watch
+2023-11-01 18:09:08,506 INFO /opt/homebrew/bin/bench schedule
+2023-11-01 18:09:08,514 INFO /opt/homebrew/bin/bench serve --port 8000
+2023-11-01 18:09:08,518 INFO /opt/homebrew/bin/bench worker
+2023-11-01 18:14:10,487 INFO /opt/homebrew/bin/bench get-app erpnext
+2023-11-01 18:14:11,024 LOG Getting erpnext
+2023-11-01 18:14:11,024 DEBUG cd ./apps && git clone https://github.com/frappe/erpnext.git  --depth 1 --origin upstream
+2023-11-01 18:14:17,753 LOG Installing erpnext
+2023-11-01 18:14:18,089 DEBUG cd /Users/manasbajpai/frappe-bench && /Users/manasbajpai/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /Users/manasbajpai/frappe-bench/apps/erpnext 
+2023-11-01 18:14:20,090 DEBUG cd /Users/manasbajpai/frappe-bench/apps/erpnext && yarn install
+2023-11-01 18:14:21,464 DEBUG bench build --app erpnext
+2023-11-01 18:14:21,570 INFO /opt/homebrew/bin/bench build --app erpnext
+2023-11-01 18:14:23,739 WARNING restart failed: Couldn't find supervisorctl in PATH
+2023-11-01 18:14:23,811 INFO A newer version of bench is available: 5.17.1 → 5.18.0
+2023-11-01 18:14:32,889 INFO /opt/homebrew/bin/bench start
+2023-11-01 18:14:33,191 INFO /opt/homebrew/bin/bench serve --port 8000
+2023-11-01 18:14:33,194 INFO /opt/homebrew/bin/bench worker
+2023-11-01 18:14:33,203 INFO /opt/homebrew/bin/bench watch
+2023-11-01 18:14:33,211 INFO /opt/homebrew/bin/bench schedule
+2023-11-02 00:00:01,007 INFO /opt/homebrew/bin/bench --verbose --site all backup
